@@ -8,8 +8,8 @@ function Navbar() {
 
     return (
         <header className="relative">
-            <div className="flex justify-between flex-wrap rounded-b-xl p-6 relative z-50 bg-white">
-                <img className="h-20" src={logo} />
+            <div className="flex justify-between flex-wrap rounded-b-xl px-6 pt-6 mb-6 relative z-50 bg-white">
+                <img className="h-20" src={logo} alt="logo" />
                 <button onClick={() => setOpenNav(!openNav)} className="ml-auto text-custom-orange">
                     {!openNav ? (
                         <FontAwesomeIcon icon={faBars} size={"2x"} />
@@ -18,8 +18,8 @@ function Navbar() {
                     )}
                 </button>
                 <nav
-                    className={`flex-1 flex basis-full overflow-hidden pt-4 justify-center transition-all duration-1000 ${
-                        openNav ? "max-h-44" : "max-h-0"
+                    className={`flex-1 flex basis-full overflow-hidden justify-center transition-all duration-1000 ${
+                        openNav ? "max-h-44 py-4" : "max-h-0 pt-0"
                     }`}
                 >
                     <ul className="flex flex-col justify-evenly gap-y-4 items-center">

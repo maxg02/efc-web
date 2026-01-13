@@ -11,7 +11,7 @@ function About() {
                 <h1>
                     Bienvenido a <span className="font-bold">EFC</span>
                 </h1>
-                <p className="text-center">
+                <p className="text-center mb-6">
                     Un espacio donde el amor de Dios transforma vidas. Nos alegra que estés aqui
                 </p>
                 <CustomButton>Conócenos</CustomButton>

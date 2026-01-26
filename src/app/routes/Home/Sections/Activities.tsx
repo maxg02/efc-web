@@ -5,7 +5,7 @@ import bgIMG from "@/assets/BGSec2.png";
 function Activities() {
     return (
         <section
-            className="flex flex-col items-center p-5 z-10 bg-[#d9d9d9] relative gap-y-7 bg-size-[auto_115%] bg-no-repeat"
+            className="flex flex-col items-center p-8 z-10 bg-[#d9d9d9] relative gap-y-7 bg-size-[auto_115%] bg-no-repeat"
             style={{ backgroundImage: `url(${bgIMG})` }}
         >
             <div>

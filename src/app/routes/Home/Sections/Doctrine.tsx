@@ -4,7 +4,7 @@ import crossBG from "@/assets/bg-cross.svg";
 
 function Doctrine() {
     return (
-        <section className="flex flex-col items-center p-5 z-10 bg-white gap-y-7">
+        <section className="flex flex-col items-center p-8 z-10 bg-white gap-y-7 relative after:content-[''] after:absolute after:h-1 after:w-83 after:bg-custom-blue after:bottom-0">
             <div className="flex flex-col items-center">
                 <h1 className="font-bold">Lo Que Creemos</h1>
                 <ul className="list-disc">

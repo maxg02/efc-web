@@ -7,7 +7,7 @@ function About() {
     return (
         <section className="flex flex-col items-center relative">
             <img src={bgAzul} className="absolute -top-7 -z-10 min-w-400" />
-            <div className="bg-custom-blue text-white flex flex-col items-center px-5">
+            <div className="bg-custom-blue text-white flex flex-col items-center px-5 pt-4">
                 <h1>
                     Bienvenido a <span className="font-bold">EFC</span>
                 </h1>

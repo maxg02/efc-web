@@ -93,8 +93,8 @@ body {
 }
 
 h1 {
-    @apply text-3xl;
-    line-height: 2;
+    @apply text-3xl text-center mb-5;
+    line-height: 1.15;
 }
 
 p {
